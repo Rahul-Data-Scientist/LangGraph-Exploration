@@ -68,7 +68,6 @@ for msg in st.session_state["message_history"]:
 
 user_input = st.chat_input("Type here...")
 
-# This is the only change from previous day's streamlit frontend
 CONFIG = {
     "configurable": {"thread_id": st.session_state['thread_id']},
     "metadata": {"thread_id": st.session_state['thread_id']},
