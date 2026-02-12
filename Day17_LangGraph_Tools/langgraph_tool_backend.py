@@ -34,7 +34,7 @@ tools_condition is a prebuilt conditional edge function that helps your graph de
 
 stock_api_key = os.environ["STOCK_API_KEY"]
 
-llm = ChatOpenAI(model = "gpt-4o-mini")
+llm = ChatOpenAI(model = "gpt-4.1-mini")
 
 # Tools
 
